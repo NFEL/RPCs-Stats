@@ -23,6 +23,7 @@
         "https://eth-rpc.gateway.pokt.network",
         "https://eth-mainnet-public.unifra.io",
         "https://ethereum.blockpi.network/v1/rpc/public",
+        "https://ethereum.blockpi.network/v1/rpc/1fc757e6c3c5443d3b4f5ac0e27460253136ed6f",
         "https://rpc.payload.de",
         "https://api.zmok.io/mainnet/oaen6dy8ff6hju9k",
         "https://eth-mainnet.g.alchemy.com/v2/--_OQ1qN3ysqcYrECjODA2eKgOpVjDtl",
@@ -34,10 +35,6 @@
         "https://ethereumnodelight.app.runonflux.io",
         "https://eth-mainnet.rpcfast.com",
         "https://main-light.eth.linkpool.io"
-    ],
-    "2": [
-        "https://node.eggs.cool",
-        "https://node.expanse.tech"
     ],
     "3": [
         "https://rpc.ankr.com/eth_ropsten",
@@ -227,9 +224,6 @@
         "https://dataserver-asia-4.zenithchain.co/",
         "https://dataserver-asia-2.zenithchain.co/"
     ],
-    "80": [
-        "website:https://genechain.io/en/index.html"
-    ],
     "82": [
         "https://rpc.meter.io",
         "https://rpc-meter.jellypool.xyz/"
@@ -300,14 +294,8 @@
     "123": [
         "https://rpc.fusespark.io"
     ],
-    "124": [],
-    "126": [
-        "https://rpc.mainnet.oychain.io",
-        "https://rpc.oychain.io"
-    ],
     "127": [],
     "128": [
-        "https://http-mainnet-node.huobichain.com",
         "https://http-mainnet.hecochain.com",
         "https://hecoapi.terminet.io/rpc"
     ],
@@ -432,10 +420,6 @@
         "https://eth-rpc-karura.aca-api.network",
         "https://rpc.evm.karura.network"
     ],
-    "707": [],
-    "777": [
-        "https://node.cheapeth.org/rpc"
-    ],
     "787": [
         "https://eth-rpc-acala.aca-api.network",
         "https://rpc.evm.acala.network"
@@ -542,8 +526,8 @@
         "https://send.catechain.com"
     ],
     "1620": [],
-    "1657": [
-        "https://dataseed1.btachain.com/"
+    "9197": [
+        "https://newbta.btachain.com/"
     ],
     "1881": [
         "https://rpc.cartenz.works"
@@ -595,9 +579,6 @@
     ],
     "4181": [
         "https://rpc1.phi.network"
-    ],
-    "4444": [
-        "https://janus.htmlcoin.dev/janus/"
     ],
     "4689": [
         "https://iotex-mainnet.gateway.pokt.network/v1/lb/6176f902e19001003499f492",
@@ -837,10 +818,6 @@
     ],
     "100008": [
         "http://eth-jrpc.mainnet.quarkchain.io:39007"
-    ],
-    "103090": [
-        "https://evm.cryptocurrencydevs.org",
-        "https://rpc.crystaleum.org"
     ],
     "110001": [
         "http://eth-jrpc.devnet.quarkchain.io:39900"
