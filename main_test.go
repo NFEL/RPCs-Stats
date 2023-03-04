@@ -29,6 +29,15 @@ func runOnAllRPCs(fun bRunner, fun2 resChecker) error {
 }
 
 func TestGen(t *testing.T) {
+	for _, rpcs := range core.Chains {
+		for _, rpc := range rpcs {
+			_, err := bench.New(rpc)
+			t.Errorf("e: %s rpc: %s", err, rpc)
+		}
+	}
+}
+
+func TestChainId(t *testing.T) {
 	b, err := bench.New("https://singapore.rpc.blxrbdn.com")
 	assert.NoError(t, err, "https://singapore.rpc.blxrbdn.com")
 	assert.NotNil(t, b)
@@ -38,10 +47,6 @@ func TestGen(t *testing.T) {
 			assert.Equal(t, b.Provider.ChainId, int64(1), "ChainId")
 		}
 	}
-}
-
-func TestChainId(t *testing.T) {
-
 }
 
 func TestMC(t *testing.T) {
