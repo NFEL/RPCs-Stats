@@ -20,7 +20,7 @@ func runOnAllRPCs(fun bRunner, fun2 resChecker) error {
 			if err == nil {
 				err = fun(*b)
 			}
-			if fun2 != nil {
+			if fun2 != nil && b != nil {
 				fun2(*b, err)
 			}
 		}
