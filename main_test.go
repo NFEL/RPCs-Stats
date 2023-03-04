@@ -6,6 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	bench "rpc-stats/Benchmark"
 	"rpc-stats/core"
+	"sync"
 	"testing"
 	"time"
 )
@@ -29,12 +30,18 @@ func runOnAllRPCs(fun bRunner, fun2 resChecker) error {
 }
 
 func TestGen(t *testing.T) {
+	var wg sync.WaitGroup
 	for _, rpcs := range core.Chains {
+		wg.Add(len(rpcs))
 		for _, rpc := range rpcs {
-			_, err := bench.New(rpc)
-			t.Errorf("e: %s rpc: %s", err, rpc)
+			go func(rpc string) {
+				_, err := bench.New(rpc)
+				t.Errorf("e: %s rpc: %s", err, rpc)
+				defer wg.Done()
+			}(rpc)
 		}
 	}
+	wg.Wait()
 }
 
 func TestChainId(t *testing.T) {
