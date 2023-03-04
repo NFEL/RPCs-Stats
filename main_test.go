@@ -37,7 +37,7 @@ func TestGen(t *testing.T) {
 			go func(rpc string) {
 				_, err := bench.New(rpc)
 				if err != nil {
-					t.Errorf("e: %s rpc: %s", err, rpc)
+					t.Errorf("e: %s rpc: %s", "", rpc)
 				}
 				defer wg.Done()
 			}(rpc)
