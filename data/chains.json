@@ -74,9 +74,6 @@
     "15": [
         "https://prenet.diode.io:8443/"
     ],
-    "17": [
-        "https://rpc.thaifi.com"
-    ],
     "19": [
         "https://songbird.towolabs.com/rpc"
     ],
@@ -96,9 +93,6 @@
         "https://cronos-rpc.elk.finance/",
         "https://node.croswap.com/rpc",
         "https://cronos.blockpi.network/v1/rpc/public"
-    ],
-    "27": [
-        "https://rpc.shibachain.net"
     ],
     "29": [
         "https://rpc.genesisl1.org"
@@ -321,9 +315,6 @@
         "https://polygon-mainnet-public.unifra.io",
         "https://polygon-mainnet.g.alchemy.com/v2/demo",
         "https://polygon.blockpi.network/v1/rpc/public"
-    ],
-    "142": [
-        "https://rpc.prodax.io"
     ],
     "163": [
         "https://node.mainnet.lightstreams.io"
