@@ -19,7 +19,7 @@
         "https://api.securerpc.com/v1",
         "https://mainnet.gateway.tenderly.co/1x2wzEQN0sDg7H9KWPESl5",
         "https://eth.getblock.io/8c71bf29-002e-49fd-b1b8-ac43a54aceda/mainnet/",
-        "https://api.bitstack.com/v1/wNFxbiJyQsSeLrX8RRCHi7NpRxrlErZk/DjShIqLishPCTB9HiMkPHXjUM9CNM9Na/ETH/mainnet",
+        "https://api.bitstack.com/v1/cd2YYJeONiFQKdTdiaLngswYWhkTloNj/2WdXINb9E70NYud0RqvoLjQMzTt8me5B/ETH/mainnet",
         "https://eth-rpc.gateway.pokt.network",
         "https://eth-mainnet-public.unifra.io",
         "https://ethereum.blockpi.network/v1/rpc/public",
@@ -340,11 +340,6 @@
     "163": [
         "https://node.mainnet.lightstreams.io"
     ],
-    "167": [
-        "https://node.atoshi.io",
-        "https://node2.atoshi.io",
-        "https://node3.atoshi.io"
-    ],
     "186": [
         "https://rpc.seelen.pro/"
     ],
@@ -550,9 +545,6 @@
     "1657": [
         "https://dataseed1.btachain.com/"
     ],
-    "1856": [
-        "rpcWorking:false"
-    ],
     "1881": [
         "https://rpc.cartenz.works"
     ],
@@ -667,9 +659,6 @@
         "https://evmos-evm.publicnode.com",
         "https://jsonrpc-evmos.goldenratiostaking.net"
     ],
-    "9100": [
-        "rpcWorking:false"
-    ],
     "10000": [
         "https://smartbch.fountainhead.cash/mainnet",
         "https://global.uat.cash",
@@ -713,9 +702,6 @@
     "24734": [
         "https://node1.mintme.com"
     ],
-    "31102": [
-        "rpcWorking:false"
-    ],
     "32520": [
         "https://rpc.icecreamswap.com",
         "https://nodes.vefinetwork.org/bitgert",
@@ -739,9 +725,6 @@
         "https://mainnet-rpc.ohoscan.com",
         "https://mainnet-rpc2.ohoscan.com"
     ],
-    "42069": [
-        "rpcWorking:false"
-    ],
     "42161": [
         "https://endpoints.omniatech.io/v1/arbitrum/one/public",
         "https://arb1.arbitrum.io/rpc",
@@ -761,9 +744,6 @@
     ],
     "42262": [
         "https://emerald.oasis.dev/"
-    ],
-    "43110": [
-        "rpcWorking:false"
     ],
     "43113": [
         "https://endpoints.omniatech.io/v1/avax/fuji/public",
@@ -862,12 +842,6 @@
         "https://evm.cryptocurrencydevs.org",
         "https://rpc.crystaleum.org"
     ],
-    "108801": [
-        "rpcWorking:false"
-    ],
-    "110000": [
-        "rpcWorking:false"
-    ],
     "110001": [
         "http://eth-jrpc.devnet.quarkchain.io:39900"
     ],
@@ -902,9 +876,6 @@
     "246529": [],
     "256256": [
         "https://mainnet.block.caduceus.foundation"
-    ],
-    "281121": [
-        "rpcWorking:false"
     ],
     "333999": [
         "https://rpc.polis.tech"
@@ -980,8 +951,7 @@
         "https://proxy.devnet.neonlabs.org/solana"
     ],
     "245022934": [
-        "https://neon-proxy-mainnet.solana.p2p.org",
-        "rpcWorking:false"
+        "https://neon-proxy-mainnet.solana.p2p.org"
     ],
     "311752642": [
         "https://mainnet-rpc.oneledger.network"
