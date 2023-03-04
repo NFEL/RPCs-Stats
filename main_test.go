@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"github.com/stretchr/testify/assert"
 	bench "rpc-stats/Benchmark"
 	"rpc-stats/core"
@@ -14,6 +15,7 @@ type resChecker func(bench.Benchmark, error)
 func runOnAllRPCs(fun bRunner, fun2 resChecker) error {
 	for _, rpcs := range core.Chains {
 		for _, rpc := range rpcs {
+			fmt.Printf("Testing %s\n", rpc)
 			b, err := bench.New(rpc)
 			if err == nil {
 				err = fun(*b)
